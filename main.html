@@ -1,64 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ORUS - Your Product Search</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Us</title>
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-  <header class="header">
-    <div class="header-container">
-      <div class="logo">
-        <img src="Or-us.png" alt="ORUS Logo" class="logo-img">
-      </div>
-      <div class="buttons">
-        <a href="signup.html">
-          <button class="signup-button">Sign Up</button>
-        </a>
-        <a href="login.html">
-          <button class="login-button">Log In</button>
-        </a>
-      </div>
-      
-</div>
-  </header>
-  <div class="wrapper">
-    <div class="content">
-      <span class="green2">OR</span><span class="red2">US</span>
-    </div>
-  </div>
-  <div class="center-container">
-    <form class="search-form">
-        <input type="text" placeholder="Search for products..." class="search-input" aria-label="Search for products">
-        <button type="submit" class="search-button" aria-label="Search">
-          <i class="fa-solid fa-magnifying-glass fa-fade"></i>
-        </button>
-    </form>
-  </div>
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-section">
-        <h4>Contact Us</h4>
-        <p>Email: <a href="mailto:supportOrus@google.com">supportOrus@google.com</a></p>
-        <p>Phone: <a href="tel:+91821XXXXXXX">+91 821XXXXXXX</a></p>
-      </div>
-      <div class="footer-section">
-        <h4>Support</h4>
-        <p><a href="#">Help Center</a></p>
-        <p><a href="#">FAQs</a></p>
-      </div>
-      <div class="footer-section">
-        <h4>Follow Us</h4>
-        <p><a href="#">Facebook</a></p>
-        <p><a href="#">Twitter</a></p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      &copy; 2024 Orus | All Rights Reserved
-    </div>
-  </footer>
-  <script src="main.js"></script>
+    <header>
+        <div class="logo">
+            <img src="Or-us.png" alt="ORUS Logo" class="logo-img">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+            <button class="Search"><strong>Search</strong></button>
+        </div>
+       
+        <div class="button">
+            <a href="signup.html">
+                <button class="signup-button">Sign Up</button>
+            </a>
+            <a href="login.html">
+                <button class="login-button">Log In</button>
+            </a>
+        </div>
+    </header>
+
+    <!-- Product Section -->
+        <section class="categories">
+            <h2>Featured Categories</h2>
+            <div class="category-list">
+                <div class="category">
+                    <a href='/mobile' target='_blank'>
+                        <img src="/smartphone.webp" alt="Mobiles" />
+                    </a>
+                    <h3>Mobiles</h3>
+                </div>
+                <div class="category">
+                    <a href='/laptop' target='_blank'>
+                        <img src="/laptop.jpg" alt="Laptops" />
+                    </a>
+                    <h3>Laptops</h3>
+                </div>
+                <div class="category">
+                    <a href='/gadget' target='_blank'>
+                        <img src="/gadget.webp" alt="Gadgets" />
+                    </a>
+                    <h3>Gadgets</h3>
+                </div>
+                <div class="category">
+                    <a href='/cloths' target='_blank'>
+                        <img src="/cloths.jpg" alt="Clothes" />
+                    </a>
+                    <h3>Clothes</h3>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <h2 style="text-align:center;">Trending Products</h2>
+    
+        <section class="product-list">
+            <div class="product-grid">
+                <!-- Individual product cards -->
+                <div class="product">
+                    <img src="/item/photo_1_2024-11-17_01-41-40.jpg" alt="Laptop Charger" />
+                    <h3>Laptop Charger</h3>
+                    <p>Rs.1999</p>
+                </div>
+                <div class="product">
+                    <img src="/item/photo_2_2024-11-17_01-41-40.jpg" alt="Gaming Laptop" />
+                    <h3>Gaming Laptop</h3>
+                    <p>Rs.1200</p>
+                </div>
+                <div class="product">
+                    <img src="/item/photo_3_2024-11-17_01-41-40.jpg" alt="Smartphone Charger" />
+                    <h3>Smartphone Charger</h3>
+                    <p>Rs1000</p>
+                </div>
+                <div class="product">
+                    <img src="/item/photo_4_2024-11-17_01-41-40.jpg" alt="Apple T-Shirt" />
+                    <h3>Apple T-Shirt</h3>
+                    <p>Rs.2000</p>
+                </div>
+                <!-- Repeat as necessary -->
+            </div>
+        </section>
+         <!-- Add more product cards as needed -->
+
+    <!-- Footer -->
+    <footer >
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+        <p>2025 @Order Us</p>
+    </footer>
+
+    <script src="project.js"></script>
 </body>
+
 </html>
