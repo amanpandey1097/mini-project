@@ -149,7 +149,7 @@ header .search-bar button {
 }
 
 .product-grid {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   justify-content: center;
   /* Centers the grid horizontally */
@@ -172,13 +172,16 @@ header .search-bar button {
 }
 
 .product img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+  width: 100px; /* Smaller width for the miniature effect */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image covers the space proportionally */
+  border-radius: 5px;
+  margin: 0 auto 15px;
 }
 
+
 .product h3 {
-  margin-top: 10px;
+  margin-top: auto;
   font-size: 16px;
   color: #333;
 }
@@ -262,7 +265,7 @@ a {
   margin-top: 10px;
   color: #0a801e;
   text-decoration: none;
-  
+
 
 }
 

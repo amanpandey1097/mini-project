@@ -1,4 +1,4 @@
-alert("WELCOME!!!!!!")
+
 
 // Simple search button functionality
 const searchButton = document.querySelector('header .search-bar button');
