@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #111;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: #000000;
+    color: #fff;
+    align-items: center;
+  }
+  
+  /* Logo */
+  header .logo img {
+    width: 120px;
+  }
+  
+  /* Navigation */
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Search Bar */
+  header .search-bar {
+    display: flex;
+    gap: 10px;
+  }
+  
+  header .search-bar input {
+    padding: 5px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  header .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #07941f;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+/* Main Content */
+.deals-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+.deals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.deal-card {
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.deal-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.deal-card h3 {
+    margin: 10px 0;
+}
+
+.deal-card p {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+}
+
+footer .footer-content a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}

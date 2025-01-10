@@ -1,65 +1,63 @@
 /**/
-/* Header */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #111;
+}
+
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;;
-    background-color: #000000;
-    color: #fff;
-    align-items: center;
-    width: 100%;
-    width: 100%;         /* Ensures header takes full width */
-    position: fixed;     /* Fixes header at the top */
-    top: 0;              /* Aligns header to the top */
-    left: 0;  
-  }
-  
-  /* Logo */
-  header .logo img {
-    width: 120px;
-  }
-  
-  /* Navigation */
-  header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  header nav ul li {
-    display: inline;
-  }
-  
-  header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  /* Search Bar */
-  header .search-bar {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-  }
-  
-  header .search-bar input {
-    padding: 5px;
-    width: 300px;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  header .search-bar button {
-    padding: 7px 10px;
-    border: none;
-    background-color: #07941f;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    align-items: center;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  background-color: #000000;
+  color: #fff;
+  align-items: center;
+}
+
+/* Logo */
+header .logo img {
+  width: 120px;
+}
+
+/* Navigation */
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Search Bar */
+header .search-bar {
+  display: flex;
+  gap: 10px;
+}
+
+header .search-bar input {
+  padding: 5px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+header .search-bar button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #07941f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
 /* Container for the category section */
 .categories {
     text-align: center;

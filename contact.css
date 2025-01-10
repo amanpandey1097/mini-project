@@ -1,0 +1,127 @@
+/* Contact Page Specific Styles */
+body{
+    background-color: #000000;
+}
+.contact-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #9da19d;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #fff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #ccc;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff00;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    opacity: 0.9;
+}
+
+.contact-details {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #9da19d;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-details h2 {
+    margin-bottom: 15px;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: #000000;
+    color: #fff;
+    align-items: center;
+  }
+  
+  /* Logo */
+  header .logo img {
+    width: 120px;
+  }
+  
+  /* Navigation */
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Search Bar */
+  header .search-bar {
+    display: flex;
+    gap: 10px;
+  }
+  
+  header .search-bar input {
+    padding: 5px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  header .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #07941f;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
